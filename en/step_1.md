@@ -4,7 +4,9 @@ Build the main sketch file so the project can open a canvas and get the robot im
 
 ### Step 1
 
-Open the blank `main.js`. `index.html` already loads p5.js and `main.js`, adds the page text, shows `backdrop.png`, and gives the sketch a `sketch-holder` div. `robot.png` is ready in the code folder.
+Open the blank `main.js` from the file list. This is where we will be working.  (Not `index.html`!)
+
+![File menu showing main.js selected in green.](images/mainjs.png)
 
 ### Step 2
 
