@@ -1,14 +1,14 @@
-title: Project title in sentence case
-hero_image: images/banner.png
-description: A short description of the project
-listed: false
-pdf: false
+title: Runaway Robot
+landing: true
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: Start main.js
+  - title: Draw the Scene
     completion:
-      - engaged      
-  - title: Challenge
-    challenge: true
+      - engaged
+  - title: Make the Robot Run
+  - title: Stop the Loop with SPACE
+    completion:
+      - internal
+  - title: Click to Stop Too
     completion:
       - external

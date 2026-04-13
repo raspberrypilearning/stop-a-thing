@@ -1,45 +1,53 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+<h2 class="c-project-heading--task">Start main.js</h2>
 
-A brief description - one or two sentences. 
+Build the main sketch file so the project can open a canvas and get the robot image ready.
 
---- print-only ---
+### Step 1
 
-![ALT TEXT](images/IMAGE.png)
+Open the blank `main.js`. `index.html` already loads p5.js and `main.js`, adds the page text, shows `backdrop.png`, and gives the sketch a `sketch-holder` div. `robot.png` is ready in the code folder.
 
---- /print-only ---
+### Step 2
 
---- no-print ---
+Add the starting variables, `preload()`, `setup()`, and an empty `draw()`. Load `robot.png` in `preload()`, then send the canvas into the `sketch-holder` div in `setup()`.
 
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
+<div class="c-project-code">
 
---- /no-print ---
+--- code ---
+---
+language: javascript
+filename: main.js
+line_numbers: true
+line_number_start: 1
+line_highlights: 1-20
+---
+const robotWidth = 108; // Robot image width
+const robotHeight = 130; // Robot image height
 
---- no-print ---
+let runnerX = 60; // Robot horizontal position
+let runnerY = 190; // Robot vertical position
+let runnerSpeed = 4; // Pixels to move each frame
+let keepRunning = true; // Track whether the robot should move
+let robotImage; // Store the loaded robot image
 
-Video embed
+function preload() { // Load files before the sketch starts
+  robotImage = loadImage("robot.png"); // Load the robot picture
+}
 
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
+function setup() { // Run once when the sketch starts
+  const canvas = createCanvas(400, 400); // Make a 400 by 400 canvas
+  canvas.parent("sketch-holder"); // Put the canvas in the page container
+}
 
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
+function draw() { // Run every frame
+}
+--- /code ---
 
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
 </div>
 
---- /no-print ---
+<h2 class="c-project-heading--task">Test</h2>
 
-### You will need:
-- a
-- b
-- c
+Run the project and make sure a `400` by `400` canvas opens below the page text.
+
+<div class="c-project-output">
+  <img src="images/step_1_output.png" alt="Step 1 output showing the page text above the empty field backdrop.">
+</div>
