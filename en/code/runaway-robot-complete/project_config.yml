@@ -1,4 +1,4 @@
-name: "Runaway Robot"
-identifier: "runaway-robot-complete"
-type: 'python'
+name: "Stop a Thing"
+identifier: "stop-a-thing-complete"
+type: 'html'
 build: true
