@@ -4,4 +4,4 @@ A cheerful robot that runs around the screen in a loop until you stop it with th
 
 Watch the robot race across the field. Press `SPACE` or click the picture to stop the loop.
 
-<iframe src="https://editor.raspberrypi.org/en/embed/viewer/runaway-robot-complete" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/stop-a-thing-complete" width="400" height="710" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
