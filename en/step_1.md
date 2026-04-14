@@ -4,7 +4,7 @@ Build the main sketch file so the project can open a canvas and get the robot im
 
 ### Step 1
 
-Open the blank `main.js` from the file list. This is where we will be working.  (Not `index.html`!)
+Open the blank `main.js` from the file list. This is where you will be working.  (Not `index.html`!)
 
 ![File menu showing main.js selected in green.](images/mainjs.png)
 
@@ -55,5 +55,7 @@ function draw() { // Run every frame
 Run the project and make sure a `400` by `400` canvas opens below the page text.
 
 <div class="c-project-output">
-  <img src="images/step_1_output.png" alt="Step 1 output showing the page text above the empty field backdrop.">
+
+  ![Step 1 output showing the page text above the empty field backdrop.](images/step_1_output.png)
+
 </div>
