@@ -10,7 +10,11 @@ Open the blank `main.js` from the file list. This is where we will be working.  
 
 ### Step 2
 
-Add the starting variables, `preload()`, `setup()`, and an empty `draw()`. Load `robot.png` in `preload()`, then send the canvas into the `sketch-holder` div in `setup()`.
+Start by adding your variables and the basic functions: preload(), setup(), and an empty draw().
+
+In preload(), load the image robot.png so it’s ready before the program starts.
+
+In setup(), create your canvas and place it inside the sketch-holder section of the page so it shows up in the right spot.
 
 <div class="c-project-code">
 
