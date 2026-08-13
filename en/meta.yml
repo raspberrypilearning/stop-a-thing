@@ -2,7 +2,7 @@ title: Stop a thing
 landing: true
 hero_image: images/banner.png
 description: Make a robot race across the screen and stop its loop with the keyboard or the mouse.
-listed: false
+listed: true
 pdf: false
 steps:
   - title: Start main.js
