@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Click to Stop Too</h2>
+<h2 class="c-project-heading--task">Click to stop</h2>
 
 Add a mouse click so you can break the loop in two different ways.
 

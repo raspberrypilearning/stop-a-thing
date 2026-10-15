@@ -1,19 +1,19 @@
 title: Stop a thing
 landing: true
 hero_image: images/banner.png
-description: Make a robot race across the screen and stop its loop with the keyboard or the mouse.
+description: Make a robot race across the screen and stop its loop with the keyboard or mouse.
 listed: false
 pdf: false
 steps:
   - title: Start main.js
-  - title: Draw the Scene
+  - title: Draw the scene
     completion:
       - engaged
-  - title: Make the Robot Run
-  - title: Stop the Loop with SPACE
+  - title: Make the robot run
+  - title: Stop the loop with SPACE
     completion:
       - internal
-  - title: Click to Stop Too
+  - title: Click to stop
     completion:
       - external
 

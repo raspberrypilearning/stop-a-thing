@@ -4,7 +4,7 @@ Build the main sketch file so the project can open a canvas and get the robot im
 
 ### Step 1
 
-Open the blank `main.js` from the file list. This is where you will be working.  (Not `index.html`!)
+Open the blank `main.js` from the file list. This is where you will be working  (not `index.html`).
 
 ![File menu showing main.js selected in green.](images/mainjs.png)
 

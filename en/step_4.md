@@ -1,6 +1,6 @@
-<h2 class="c-project-heading--task">Stop the Loop with SPACE</h2>
+<h2 class="c-project-heading--task">Stop the loop with SPACE</h2>
 
-Use the keyboard to turn the robot's running loop off.
+Use the keyboard to turn off the robot's running loop.
 
 ### Step 1
 

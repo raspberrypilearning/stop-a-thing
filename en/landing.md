@@ -1,6 +1,6 @@
 ## What you will make
 
-A cheerful robot that runs around the screen in a loop until you stop it with the keyboard or the mouse.
+You will create a cheerful robot that runs around the screen in a loop until you stop it with the keyboard or mouse.
 
 Watch the robot race across the field. Press `SPACE` or click the picture to stop the loop.
 

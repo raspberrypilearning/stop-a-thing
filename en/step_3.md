@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Make the Robot Run</h2>
+<h2 class="c-project-heading--task">Make the robot run</h2>
 
 Use the draw loop to move the robot across the field again and again.
 

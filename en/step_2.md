@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Show the Robot</h2>
+<h2 class="c-project-heading--task">Show the robot</h2>
 
 Draw the robot on a transparent canvas so the HTML backdrop stays visible behind it.
 
