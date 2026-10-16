@@ -2,7 +2,11 @@
 
 Draw the robot on a transparent canvas so the HTML backdrop stays visible behind it.
 
+### Step 1
+
 `index.html` already shows the backdrop image and the words above the sketch. Replace the empty `draw()` function so it clears the canvas and draws the robot image on top.
+
+### Step 2
 
 Use `clear()` so the canvas stays transparent, then draw `robotImage` using `runnerX` and `runnerY`.
 

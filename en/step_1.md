@@ -2,9 +2,13 @@
 
 Build the main sketch file so the project can open a canvas and get the robot image ready.
 
+### Step 1
+
 Open the blank `main.js` from the file list. This is where you will be working  (not `index.html`).
 
 ![File menu showing main.js selected in green.](images/mainjs.png)
+
+### Step 2
 
 Start by adding your variables and the basic functions: `preload()`, `setup()`, and an empty `draw()` function.
 

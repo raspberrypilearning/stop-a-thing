@@ -2,7 +2,11 @@
 
 Add a mouse click so you can break the loop in two different ways.
 
+### Step 1
+
 The robot already stops with the keyboard. Now give the mouse the same job so you can use either input.
+
+### Step 2
 
 Go below `keyPressed()` in `main.js`, then add a new `mousePressed()` function. Make it check that the click is inside the canvas, then call `stopRunner()`.
 

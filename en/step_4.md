@@ -2,7 +2,11 @@
 
 Use the keyboard to turn off the robot's running loop.
 
+### Step 1
+
 Run the project. `draw()` keeps running, so the robot keeps moving and the status text still tells you how to stop it.
+
+### Step 2
 
 Go below `draw()` in `main.js`, then add a `stopRunner()` function and a new `keyPressed()` function. Make `stopRunner()` set `keepRunning` to `false` and update the `status-text` message in the HTML page. Make `keyPressed()` check for the `SPACE` key and call `stopRunner()`.
 
