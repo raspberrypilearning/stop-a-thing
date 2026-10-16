@@ -2,11 +2,7 @@
 
 Use the draw loop to move the robot across the field again and again.
 
-### Step 1
-
 The backdrop and robot are ready, but the robot stays still. Change `runnerX` inside `draw()` so the loop moves the robot every frame.
-
-### Step 2
 
 Move the robot while `keepRunning` is `true`. Let it run off the right edge, then send it back to the left so it appears again from offscreen.
 
